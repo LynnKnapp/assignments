@@ -1,0 +1,33 @@
+.main-con {
+    position: static;
+    height: 360px;
+    width: 600px;
+    border:1px solid lightblue;  
+}
+.france {
+    display: inline-block;
+}
+
+.blue {
+    position: relative;
+    height: 100%; 
+    width:  33%;
+    background-color: blue;
+    left: 0;
+}
+.white {
+    position: relative;
+    height: 100%; 
+    width:  32%;
+    background-color: white;
+     
+}
+
+.red {
+    position: relative;
+    height: 100%; 
+    width:  33%;
+    background-color: red;
+    right: -4px;
+    /* top: 0;   */
+}
