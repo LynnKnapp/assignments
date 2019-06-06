@@ -57,10 +57,8 @@ var people = [
   function peopleFunction() {
     for (var i = 0; i < 5; i++) {
         console.log(people[i])
-        
-        
     }
- 
+  } 
 
   peopleFunction()
 
