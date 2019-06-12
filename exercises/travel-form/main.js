@@ -7,15 +7,23 @@ travel.addEventListener("submit",function(event){
     var gender = travel.gender.value
     // var female = travel.gender.value
     var location = travel.location.value
-    var vegan = travel.value
-    var carnivore =travel.diet.value
-    var lactoseInt =travel.diet.value
-    var chocolate =travel.diet.value
+    // var vegan = travel.vegan.value
+    // var carnivore = travel.carnivore.value
+    // var lactoseInt = travel.lactoseInt.value
+    // var chocolate = travel.chocolate.value
+    var checkDiet = travel.diet
+    var checkRestrictions = []
+        for (var i = 0;i < checkDiet.length; i++){
+            if (checkDiet[i].checked){
+                checkRestrictions.push(checkDiet[i].value)    
+            }
+        }
     window.alert(
         `"First Name:" ${firstName}
          "Last Name:" ${lastName} 
          "age:"       ${age}
-         "gender"     ${gender} 
-         "location"   ${location}`)
+         "gender:"     ${gender} 
+         "location:"   ${location}
+         "Diet:")     ${checkRestrictions}`)
 })
     
