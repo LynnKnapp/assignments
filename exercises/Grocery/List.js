@@ -10,6 +10,15 @@ console.log(shopper.nameFirst);
 console.log(shopper.nameFirst + shopper.nameLast);
 console.log(shopper.groceryCart[1]);
 
+function groceryShopper(){
+    if (shopper.age >=21) {
+        console.log ( "can buy beer" )
+        else {
+            console.log ("put the beer back")
+        }
+    }
+
+
 
     
 
