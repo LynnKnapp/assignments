@@ -6,8 +6,8 @@ const player = {
     itemArr: []
 }
 const playerName =readline.question("Please enter your name.")
-console.log("Nice to meet you " + playerName) 
-const weapon = ["sword", "arrow","spell"] 
+console.log("Welcome, " + playerName +".") 
+const weapon = ["sword", "hookshot","hammer"] 
 
 function Enemy(name,type,health,weapon, item){
     this.name =name;
@@ -17,7 +17,7 @@ function Enemy(name,type,health,weapon, item){
     this.item =item;
 }
 
-const ready = readline.question("Are you ready to play?  Answer yes or no.")
+const ready = readline.question("Do you have the guts to play the game " + player + "?  Yes or no?")
 
 if (ready === "yes"){ 
     while (player.health > 0) {
@@ -36,7 +36,7 @@ if (ready === "yes"){
                     const randomNum = Math.floor(Math.random() * 3)
 
                     if (randomNum === 0) {
-                            console.log ("Draw your sword and prepare for battle with " + currentEnemy.name +".") 
+                            console.log ("Draw your sword and attack when " + currentEnemy.name + " is on its tail!") 
                             console.log(player)
                             // console.log(Enemy) refer to bossman1
                             while(player.health > 0 && currentEnemy.health > 0 ){
@@ -48,7 +48,7 @@ if (ready === "yes"){
                                 console.log(player)
                             }
                     }else if (randomNum === 1) {
-                        console.log ("Draw your bow and prepare for battle with " + currentEnemy.name + ".")
+                        console.log ("Use your hookshot to draw " + currentEnemy.name + " close,then attack quickly before he kicks your ass.")
                         while(player.health > 0 && currentEnemy.health > 0 ){
                             attackEnemy(currentEnemy)
                             attackPerson(currentEnemy)
@@ -57,7 +57,7 @@ if (ready === "yes"){
                             console.log(player)
                         }     
                     }else if (randomNum === 2) {
-                        console.log ("Use your fire  spell and prepare for battle with "  + currentEnemy.name + ".")
+                        console.log ("Use your hammer and stun "  + currentEnemy.name + ".  Then attack with your sword.")
                         while(player.health > 0 && currentEnemy.health > 0 ){
                             attackEnemy(currentEnemy)
                             attackPerson(currentEnemy)
@@ -74,16 +74,16 @@ if (ready === "yes"){
         }
     }
 }        
-console.log("Your worm food now you dirtbag, I will rule forever!")
+console.log("Your worm food now you dirtbag, I will rule forever!  Bahahaha!")
 
 function randomEnemy(){
     const randomNum = Math.floor(Math.random() * 3)
     if(randomNum === 0){
-        return new Enemy ("Gibdo","mummy", 50,"hands","iron glove")
+        return new Enemy ("Wolfos", "wolf", 50, "claws", "iron glove")
     }else if(randomNum === 1){
-        return new Enemy ("Iron Knuckle","knight", 75, "knife", "dagger")
+        return new Enemy ("Iron Knuckle","knight", 75, "knife", "spear")
     }else if (randomNum === 2){
-        return new Enemy ("Volvagia","dragon", 100,"fire","magic power")    
+        return new Enemy ("Volvagia","dragon", 100, "fire","magic power")    
     }     
 }
 

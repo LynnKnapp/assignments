@@ -1,0 +1,63 @@
+.strike {
+    text-decoration: line-through;
+}
+
+h1{
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Lobster', cursive;  
+  font-weight: bold;
+  padding:0px;
+  color: blueviolet
+}
+.todoContainer > img{
+    height: auto;
+    width: 100% ;
+    border: solid darkorchid
+}
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    width: 800px;
+    
+}
+
+/* #get-btn{
+    height: 30px;
+    width: 130px;
+    border: solid rgb(168, 78, 213);
+    font-size: 15px;
+    background-color: darkmagenta;
+    color: whitesmoke; */
+/* } */
+
+/* input type
+    width: 130px;
+    height: 30px;
+} */
+.todoContainer > price{
+    
+    height: 40px;
+    width: 50px;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-right: 20px
+    
+
+}
+.todoContainer > description{
+    font-size: 30px;
+    text-align: center;
+    /* margin-left: 250px;  */
+
+    
+}
+.todoContainer > button{
+    margin-left: 25px;
+}
+.todoContainer{
+    border: solid darkorchid;
+    background-color: lightcyan;
+}
