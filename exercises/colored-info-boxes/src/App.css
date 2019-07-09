@@ -1,0 +1,33 @@
+.box1{
+  background-color: blueviolet;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: 25px;
+
+}
+.box2{
+  background-color: rgb(66, 209, 66) ;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: 25px;
+
+}
+.box3{
+  background-color: rgb(204, 74, 118);
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: 25px;
+}
+.box4{
+  background-color: rgb(61, 210, 230);
+  height: 200px;
+  width: 200px;
+  color: purple;
+  text-align: center;
+  font-size: 25px;
+
+}
+
