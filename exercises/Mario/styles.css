@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     margin: 0;
     background-color: rgb(135, 230, 26)
 }
@@ -9,12 +10,21 @@ body {
     color: #c70ac7;
     font-size: 100px;
     width: 182px;
+=======
+    background-color: rgb(135, 230, 26)
+}
+#p-total {
+    color: #c70ac7;
+    font-size: 100px;
+    width: 182px; 
+>>>>>>> fb52a464918bbfbd04f0c2b32e3333c7c881b69c
     height: 200px;
     position: relative;
     left: 570px;
     top: 100px;
     /* border: solid maroon; */
 }
+<<<<<<< HEAD
 
 /* .total {
     width: 182px;
@@ -32,6 +42,20 @@ body {
 }
 
 #header>h1 {
+=======
+.total{
+    width: 182px;
+}
+
+#header{
+    font-size: 80px;
+    text-align: center;
+    color: rgb(128, 3, 149); 
+    width: 800px;
+}
+
+#header > h1{
+>>>>>>> fb52a464918bbfbd04f0c2b32e3333c7c881b69c
     font-size: 90px;
     text-align: center;
     width: 100vw;
@@ -46,13 +70,18 @@ body {
     margin-top: 363px;
     position: relative;
     right: 35px; 
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> fb52a464918bbfbd04f0c2b32e3333c7c881b69c
 
 #Spiny-image{
      text-align: right
 }
 
 form {
+<<<<<<< HEAD
     /* margin-top: -694px; */
     display: flex;
     flex-direction: column;
@@ -121,3 +150,39 @@ button{
         top: 730px; 
     }
 }
+=======
+    margin-top: -694px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+#images{
+   display: flex;
+   margin-top: 380px;
+   justify-content: space-around;
+}
+
+button{
+    width: 11%;
+    margin-left: 588px;
+    position: relative;
+    top: 730px;
+}
+
+#imageMario{
+     width: 100vw;
+     align-items: center;
+}
+
+.newMario{
+    width: 85%;
+    height: 275px;
+    background-size: cover;
+    margin-left: 6%; 
+}
+
+#footer {
+    /* display: flex; */
+    text-align: center;
+}
+>>>>>>> fb52a464918bbfbd04f0c2b32e3333c7c881b69c

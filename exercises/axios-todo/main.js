@@ -9,7 +9,11 @@
     // .catch(error=>{
     // console.log(error)
     // })     
+<<<<<<< HEAD
 //Post: axios.post("https://api.vschool.io/lynnknapp/todo")
+=======
+//Post:   axios.post("https://api.vschool.io/lynnknapp/todo")
+>>>>>>> fb52a464918bbfbd04f0c2b32e3333c7c881b69c
     //.then(response)
     //.catch(error)
 
@@ -35,7 +39,10 @@ function getTodos(){
             console.log(error)
         })         
 }
+<<<<<<< HEAD
 //Hello
+=======
+>>>>>>> fb52a464918bbfbd04f0c2b32e3333c7c881b69c
 getTodos()
 function listToDos(todos){
     document.getElementById("divContainer").innerHTML = ""

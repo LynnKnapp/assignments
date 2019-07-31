@@ -10,6 +10,7 @@
  
 //  console.log(stringConcat([1,2,3])); // "123"   
  
+<<<<<<< HEAD
  function totalVotes(person) {
      return person.reduce(function(add,person) {
         let voter =person.voted === true
@@ -17,6 +18,15 @@
 
      })
     
+=======
+//  function totalVotes(person) {
+//      return person.reduce((add,person) {
+//         let voter =person.voted === true
+//          return voter.voted === true
+
+//      })
+
+>>>>>>> fb52a464918bbfbd04f0c2b32e3333c7c881b69c
 // function totalVotes(voters){
 //     return voters.reduce(function(acc,curr){
 //          if (curr.voted === true){

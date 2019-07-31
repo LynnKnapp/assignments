@@ -1,7 +1,12 @@
 #container{
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
+=======
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+>>>>>>> fb52a464918bbfbd04f0c2b32e3333c7c881b69c
     width: 500px;
     margin: auto;
     margin-top: 50px;
