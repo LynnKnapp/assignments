@@ -9,7 +9,7 @@
     // .catch(error=>{
     // console.log(error)
     // })     
-//Post:   axios.post("https://api.vschool.io/lynnknapp/todo")
+//Post: axios.post("https://api.vschool.io/lynnknapp/todo")
     //.then(response)
     //.catch(error)
 
@@ -35,6 +35,7 @@ function getTodos(){
             console.log(error)
         })         
 }
+//Hello
 getTodos()
 function listToDos(todos){
     document.getElementById("divContainer").innerHTML = ""
