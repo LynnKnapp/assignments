@@ -72,7 +72,6 @@ const Friendslist =(props)=>{
                                         
         return (
             <div>
-               <h1>Friends with Cuddlebugs</h1>
                {mappedFriendslist} 
             </div>            
         )

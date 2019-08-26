@@ -32,47 +32,46 @@
 //     }
 //     console.log(groceryList)
 
-var people = [
-    {
-      name: "Harrison Ford",
-      occupation: "Actor"
-    },
-    {
-      name: "Justin Bieber",
-      occupation: "Singer"
-    },
-    {
-      name: "Vladimir Putin",
-      occupation: "Politician"
-    },
-    {
-      name: "Oprah",
-      occupation: "Entertainer"
-    }
-  
-]
-
-  
-
-  function peopleFunction() {
-    for (var i = 0; i < 5; i++) {
-        console.log(people[i])
-    }
-  } 
-
-  peopleFunction()
-
-
-
-
-//     var num = []
-//     for (var i = 0; i < 3; i++) { 
-//         num.push([])  
-//         for ( var j = 0; j < 3; j++) {
-//             num[i].push(i)
-            
-        
-//         }  
+// var people = [
+//     {
+//       name: "Harrison Ford",
+//       occupation: "Actor"
+//     },
+//     {
+//       name: "Justin Bieber",
+//       occupation: "Singer"
+//     },
+//     {
+//       name: "Vladimir Putin",
+//       occupation: "Politician"
+//     },
+//     {
+//       name: "Oprah",
+//       occupation: "Entertainer"
 //     }
+  
+// ]
 
-// console.log(num)
+  
+
+  // function peopleFunction() {
+  //   for (var i = 0; i < 5; i++) {
+  //       console.log(people[i])
+  //   }
+  // } 
+
+  // peopleFunction()
+
+
+
+
+   var num = []
+    for (var i = 0; i < 3; i++) { 
+        num.push(0)  
+        for ( var j = 0; j < 3; j++) {
+            num[i].push(j)
+            
+       console.log(num) 
+        }  
+    }
+
